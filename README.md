@@ -64,10 +64,10 @@ that RTK GNSS works best in open environments with a clear view of satellites, w
 
 <table>
   <tr>
-    <td><img src="results/RTK_GNSS1.png" alt="Scatterplot" /></td>
+    <td><img src="results/RTK_GNSS1.png" alt="Scatterplot"  width="600" /></td>
   </tr>
   <tr>
-    <td><img src="results/RTK_GNSS2.png" alt="Scatterplot" /></td>
+    <td><img src="results/RTK_GNSS2.png" alt="Scatterplot"  width="600" /></td>
   </tr>
 </table>
 
