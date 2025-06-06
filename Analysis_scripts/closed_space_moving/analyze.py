@@ -5,8 +5,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # File paths
-data_file = "/home/shreeya/Desktop/EECE5554/LAB2/Data/closed_space_moving/occuluded_moving.csv"
-output_csv = "/home/shreeya/Desktop/EECE5554/LAB2/Data/closed_space_moving/occuluded_moving_utm.csv"
+data_file = "/home/shruti/Desktop/EECE5554/LAB2/Data/closed_space_moving/occuluded_moving.csv"
+output_csv = "/home/shruti/Desktop/EECE5554/LAB2/Data/closed_space_moving/occuluded_moving_utm.csv"
 
 # Load the CSV file
 df = pd.read_csv(data_file)
