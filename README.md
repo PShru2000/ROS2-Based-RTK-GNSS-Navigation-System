@@ -57,9 +57,24 @@ This project implements a high-precision GPS data collection and analysis pipeli
 - Deviation: 0.9–1.1 m  
 - Observation: Noisy data, trajectory affected by signal interference
 
-## RTK GNSS vs. Standard GPS (Lab 1)
+RTK GNSS is extremely accurate in open environments, with deviations in the centimeter range. However, its accuracy
+decreases in occluded areas, where deviations can increase up to 1 meter. Moving data generally has higher deviations than
+stationary data, and occlusion significantly affects GNSS fix quality, leading to more position errors. These results show
+that RTK GNSS works best in open environments with a clear view of satellites, while obstructions reduce its accuracy.
 
-| Feature                     | Standard GPS (USB Puck) | RTK GNSS System       |
+<table>
+  <tr>
+    <td><img src="results/RTK_GNSS1.png" alt="Scatterplot" width="300"/></td>
+  </tr>
+  <tr>
+    <td><img src="results/RTK_GNSS2.png" alt="Scatterplot" width="300"/></td>
+  </tr>
+</table>
+
+
+## RTK GNSS vs. Standard GPS 
+
+| Feature                     | Standard GPS (USB Puck) | RTK GNSS System      |
 |----------------------------|-------------------------|-----------------------|
 | Accuracy (Open Space)      | ~5–10 m                 | 0.15–0.4 m            |
 | Accuracy (Occluded)        | 10–30 m                 | 0.7–1.1 m             |
