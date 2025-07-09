@@ -4,7 +4,7 @@
   <name>gps_driver</name>
   <version>0.0.0</version>
   <description>ROS2 GPS Driver package to read GPS data from serial and publish it as a custom ROS2 message.</description>
-  <maintainer email="shreeya@todo.todo">Shreeya</maintainer>
+  <maintainer email="shruti@todo.todo">Shruti</maintainer>
   <license>Apache-2.0</license>
 
   <!-- Build tool dependencies -->
